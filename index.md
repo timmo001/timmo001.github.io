@@ -1,5 +1,3 @@
-# Welcome to Timmo's GitHub Pages
-
 ## Featured Projects
 
 [Home Assistant](https://github.com/home-assistant/home-assistant) (Contributor)
@@ -10,4 +8,4 @@
 
 [ESP8266 MQTT PIR Sensor](https://github.com/timmo001/ESP8266-MQTT-PIR-Sensor)
 
-[Material UI React Color Picker](https://github.com/timmo001/material-ui-rc-color-picker)
+[Material UI React Color Picker](https://git.timmo.xyz/material-ui-rc-color-picker/)
