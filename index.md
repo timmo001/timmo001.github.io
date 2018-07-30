@@ -8,6 +8,8 @@
 
 ## Featured Projects
 
+:house: [Home Panel](https://github.com/timmo001/home-panel)
+
 :house: [Home Assistant](https://github.com/home-assistant/home-assistant) (Contributor)
 
 :bulb: [ESP8266 MQTT JSON Lights](https://github.com/timmo001/ESP8266-MQTT-JSON-Lights)
