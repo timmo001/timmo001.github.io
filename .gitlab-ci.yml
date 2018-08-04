@@ -65,7 +65,6 @@ mkdocs:
     - git config --global user.name "Git"
     - git clone $GITHUB_URL git-src/ && cd git-src/
     - git status
-    - cd docs
     - python --version
     - pip --version
     - pip install mkdocs mkdocs-material
