@@ -70,6 +70,6 @@ mkdocs:
     - pip install mkdocs mkdocs-material
     - 'mkdocs gh-deploy -v -c -b master -m ":books: update docs"'
   only:
-    - docs
+    - source
   tags:
     - pages
