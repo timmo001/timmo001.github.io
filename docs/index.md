@@ -11,7 +11,8 @@ Tinkerer, Developer, All round nerd
 
 :house: [Home Assistant](https://github.com/home-assistant/home-assistant) (Contributor)
 
-:bulb: [ESP8266 MQTT JSON Lights](https://github.com/timmo001/ESP8266-MQTT-JSON-Lights) ([Video](https://youtu.be/gas0h9pCgSs))
+:bulb: [ESP8266 MQTT JSON Lights](https://github.com/timmo001/ESP8266-MQTT-JSON-Lights)
+ ([Video](https://youtu.be/gas0h9pCgSs))
 
 :clock5: [ESP8266 MAX7219 LED 8x8 Matrix MQTT Clock](https://github.com/timmo001/ESP8266-LED-Matrix-MQTT-Sign)
 
