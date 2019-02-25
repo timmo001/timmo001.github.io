@@ -7,34 +7,43 @@ Tinkerer, Developer, All round nerd
 
 ## Featured Projects
 
-:house: [Home Panel]
+:house: [Home Panel] - Creator and maintainer
 
-:house: [Home Assistant] (Contributor)
+:house: [Home Panel Hass.io Add-on] - Creator and maintainer
 
-:bulb: [ESP8266 MQTT JSON Lights]
+:speech_balloon: [Matrix Hass.io Add-on] - Creator and maintainer
+
+:speech_balloon: [The Lounge Hass.io Add-on] - Creator and maintainer
+
+:house: [Home Assistant] - Contributor
+
+:bulb: [ESP8266 MQTT JSON Lights] - Creator and maintainer
  ([Video])
 
-:clock5: [ESP8266 MAX7219 LED 8x8 Matrix MQTT Clock]
-
-:warning: [ESP8266 MQTT PIR Sensor]
-
-:rainbow: [Material UI React Color Picker]
+:clock5: [ESP8266 MAX7219 LED 8x8 Matrix MQTT Clock] - Creator and maintainer
 
 ## Links
+
+:octocat: [GitHub]
+
+:cat: [GitLab]
+
+:bird: [Twitter]
 
 :candy: [Android Developer Page]
 
 :question: [Stack Overfflow Profile]
 
-:bird: [Twitter]
-
 [Home Panel]: https://git.timmo.xyz/home-panel
+[Home Panel Hass.io Add-on]: https://github.com/hassio-addons/addon-home-panel
+[Matrix Hass.io Add-on]: https://github.com/hassio-addons/addon-matrix
+[The Lounge Hass.io Add-on]: https://github.com/hassio-addons/addon-thelounge
 [Home Assistant]: https://github.com/home-assistant/home-assistant
 [ESP8266 MQTT JSON Lights]: https://github.com/timmo001/ESP8266-MQTT-JSON-Lights
 [Video]: https://youtu.be/gas0h9pCgSs
 [ESP8266 MAX7219 LED 8x8 Matrix MQTT Clock]: https://github.com/timmo001/ESP8266-LED-Matrix-MQTT-Sign
-[ESP8266 MQTT PIR Sensor]: https://github.com/timmo001/ESP8266-MQTT-PIR-Sensor
-[Material UI React Color Picker]: https://git.timmo.xyz/material-ui-rc-color-picker/
+[GitHub]: https://github.com/timmo001
+[GitLab]: https://gitlab.com/timmo
+[Twitter]: https://twitter.com/timmo001
 [Android Developer Page]: https://play.google.com/store/apps/dev?id=5292588541115872750
 [Stack Overfflow Profile]: https://stackoverflow.com/users/1888770/timmo
-[Twitter]: https://twitter.com/timmo001
