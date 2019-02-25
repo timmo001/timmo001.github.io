@@ -1,75 +1,28 @@
 ---
-image: alpine:latest
+include: https://raw.githubusercontent.com/timmo001/organization/master/gitlab-ci/js.yml
 
-stages:
-  - preflight
-  - pages
+variables:
+  GITHUB_REPO: "timmo001/timmo001.github.io"
+  SLUG: "timmo001.github.io"
+  TARGET: "."
 
-# Generic preflight template
-.preflight: &preflight
-  stage: preflight
-  tags:
-    - preflight
+  AARCH64: "false"
+  AMD64: "false"
+  ARMHF: "false"
+  ARMV7: "false"
+  I386: "false"
 
-# Preflight jobs
-yamllint:
-  <<: *preflight
-  image: sdesbure/yamllint
-  before_script:
-    - yamllint --version
-  script:
-    - yamllint .
+  LEGACY_TAGS: "false"
 
-jsonlint:
-  <<: *preflight
-  image: sahsu/docker-jsonlint
-  before_script:
-    - jsonlint --version || true
-  script:
-    - |
-      for file in $(find . -type f -name "*.json"); do
-        if ! jsonlint -q $file; then
-          export FAILED=1
-        else
-          echo "$file OK"
-        fi
-      done
-      if [ "${FAILED}" = "1" ]; then
-        exit 1
-      fi
-
-markdownlint:
-  <<: *preflight
-  image:
-    name: ruby:alpine
-    entrypoint: [""]
-  before_script:
-    - gem install mdl
-    - mdl --version
-  script:
-    - mdl --style all --warnings .
-
-# Pages jobs
-mkdocs:
-  stage: pages
-  image: python:3.7.0-alpine3.8
-  script:
-    - rm -f ~/.gitconfig && rm -Rf  ~/.ssh
-    - apk add --no-cache git=2.18.0-r0 git-fast-import=2.18.0-r0 openssh-client=7.7_p1-r2 bash=4.4.19-r1
-    - eval $(ssh-agent -s)
-    - mkdir -p ~/.ssh
-    - echo "$GIT_SSH_PUB_KEY" > ~/.ssh/id_rsa.pub
-    - echo "$GIT_SSH_PRIV_KEY" | ssh-add -
-    - ssh-keyscan github.com >> ~/.ssh/known_hosts
-    - git config --global user.email "$GIT_EMAIL"
-    - git config --global user.name "Git"
-    - git clone $GITHUB_URL git-src/ && cd git-src/
-    - git status
-    - python --version
-    - pip --version
-    - pip install mkdocs mkdocs-material
-    - 'mkdocs gh-deploy -v -c -b master -m ":books: update docs"'
-  only:
-    - source
-  tags:
-    - pages
+  PREFLIGHT_HADOLINT: "true"
+  PREFLIGHT_JSONLINT: "true"
+  PREFLIGHT_MARKDOWNLINT: "true"
+  PREFLIGHT_SHELLCHECK: "false"
+  PREFLIGHT_YAMLLINT: "false"
+  PREFLIGHT_ESLINT: "false"
+  PREFLIGHT_STYLELINT: "false"
+  TEST: "false"
+  DEPLOY_DOCKER: "false"
+  PAGES_MKDOCS: "true"
+  SNYK_DOCKER: "false"
+  SNYK_YARN: "false"
