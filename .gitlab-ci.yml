@@ -26,3 +26,11 @@ variables:
   PAGES_MKDOCS: "true"
   SNYK_DOCKER: "false"
   SNYK_YARN: "false"
+
+
+mkdocs:
+  only:
+    refs:
+      - source
+    variables:
+      - $PAGES_MKDOCS == "true"
