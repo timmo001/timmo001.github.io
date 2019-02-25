@@ -30,9 +30,9 @@ Tinkerer, Developer, All round nerd
 
 :bird: [Twitter]
 
-:candy: [Android Developer Page]
+:question: [Stack Overflow]
 
-:question: [Stack Overfflow Profile]
+:candy: [Android Developer Page]
 
 [Home Panel]: https://git.timmo.xyz/home-panel
 [Home Panel Hass.io Add-on]: https://github.com/hassio-addons/addon-home-panel
@@ -46,4 +46,4 @@ Tinkerer, Developer, All round nerd
 [GitLab]: https://gitlab.com/timmo
 [Twitter]: https://twitter.com/timmo001
 [Android Developer Page]: https://play.google.com/store/apps/dev?id=5292588541115872750
-[Stack Overfflow Profile]: https://stackoverflow.com/users/1888770/timmo
+[Stack Overflow]: https://stackoverflow.com/users/1888770/timmo
