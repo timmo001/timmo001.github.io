@@ -47,7 +47,7 @@ mkdocs:
     - python --version
     - pip --version
     - pip install mkdocs mkdocs-material
-    - 'mkdocs gh-deploy -v -c -m ":books: update docs"'
+    - 'mkdocs gh-deploy -v -c -b master -m ":books: update docs"'
   only:
     refs:
       - source
