@@ -24,7 +24,7 @@ Tinkerer, Developer, All round nerd
 
 ## Links
 
-:octocat: [GitHub]
+:cat: [GitHub]
 
 :cat: [GitLab]
 
