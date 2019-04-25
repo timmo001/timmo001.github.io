@@ -34,7 +34,7 @@ Tinkerer, Developer, All round nerd
 
 :candy: [Android Developer Page]
 
-[Home Panel]: https://git.timmo.xyz/home-panel
+[Home Panel]: https://timmo.dev/home-panel
 [Home Panel Hass.io Add-on]: https://github.com/hassio-addons/addon-home-panel
 [Matrix Hass.io Add-on]: https://github.com/hassio-addons/addon-matrix
 [The Lounge Hass.io Add-on]: https://github.com/hassio-addons/addon-thelounge
