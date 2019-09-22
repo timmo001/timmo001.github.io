@@ -20,6 +20,7 @@ variables:
   PREFLIGHT_SHELLCHECK: "false"
   PREFLIGHT_YAMLLINT: "false"
   PREFLIGHT_ESLINT: "false"
+  PREFLIGHT_TSLINT: "false"
   PREFLIGHT_STYLELINT: "false"
   TEST: "false"
   DEPLOY_DOCKER: "false"
